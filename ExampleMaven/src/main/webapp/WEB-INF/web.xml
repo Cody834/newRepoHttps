@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">  
+  
+  <display-name>ExampleMaven</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+ 	 <description></description>
+ 	 <display-name>AdminLoginServlet2</display-name>
+  	<servlet-name>AdminLoginServlet2</servlet-name>
+  	<servlet-class>com.cody.web.AdminLoginServlet2</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  	<servlet-name>AdminLoginServlet2</servlet-name>
+  	<url-pattern>/AdminLoginServlet2</url-pattern>
+  	</servlet-mapping>
+  	
+  	 
+    <servlet>
+    <description></description>
+    <display-name>NikeSportServlet</display-name>
+    <servlet-name>NikeSportServlet</servlet-name>
+    <servlet-class>com.cody.web.NikeSportServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NikeSportServlet</servlet-name>
+    <url-pattern>/NikeSportServlet</url-pattern>
+    <url-pattern>/newNikeSportsShoe</url-pattern>
+    <url-pattern>/insertNikeSportsShoe</url-pattern>
+    <url-pattern>/listNikeSportsShoe</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description></description>
+    <display-name>NikeSportsShoe</display-name>
+    <servlet-name>NikeSportsShoe</servlet-name>
+    <servlet-class>com.cody.models.NikeSportsShoe</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NikeSportsShoe</servlet-name>
+    <url-pattern>/NikeSportsShoe</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description></description>
+    <display-name>AdidasSportServlet</display-name>
+    <servlet-name>AdidasSportServlet</servlet-name>
+    <servlet-class>com.cody.web.AdidasSportServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdidasSportServlet</servlet-name>
+    <url-pattern>/AdidasSportServlet</url-pattern>
+    <url-pattern>/newAdidasSportsShoe</url-pattern>
+    <url-pattern>/insertAdidasSportsShoe</url-pattern>
+    <url-pattern>/listAdidasSportsShoe</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description></description>
+    <display-name>AdidasSportsShoe</display-name>
+    <servlet-name>AdidasSportsShoe</servlet-name>
+    <servlet-class>com.cody.models.AdidasSportsShoe</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdidasSportsShoe</servlet-name>
+    <url-pattern>/AdidasSportsShoe</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>PumaSportServlet</display-name>
+    <servlet-name>PumaSportServlet</servlet-name>
+    <servlet-class>com.cody.web.PumaSportServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PumaSportServlet</servlet-name>
+    <url-pattern>/PumaSportServlet</url-pattern>
+    <url-pattern>/newPumaSportsShoe</url-pattern>
+    <url-pattern>/insertPumaSportsShoe</url-pattern>
+    <url-pattern>/listPumaSportsShoe</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description></description>
+    <display-name>PumaSportsShoe</display-name>
+    <servlet-name>PumaSportsShoe</servlet-name>
+    <servlet-class>com.cody.models.PumaSportsShoe</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PumaSportsShoe</servlet-name>
+    <url-pattern>/PumaSportsShoe</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>CustomerServlet</display-name>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>com.cody.web.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/CustomerServlet</url-pattern>
+    <url-pattern>/listCustomers</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description></description>
+    <display-name>Customers</display-name>
+    <servlet-name>Customers</servlet-name>
+    <servlet-class>com.cody.models.Customers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customers</servlet-name>
+    <url-pattern>/Customers</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>PurchaseReportsServlet</display-name>
+    <servlet-name>PurchaseReportsServlet</servlet-name>
+    <servlet-class>com.cody.web.PurchaseReportsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PurchaseReportsServlet</servlet-name>
+    <url-pattern>/PurchaseReportsServlet</url-pattern>
+    <url-pattern>/listPurchaseReports</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description></description>
+    <display-name>PurchaseReports</display-name>
+    <servlet-name>PurchaseReports</servlet-name>
+    <servlet-class>com.cody.models.PurchaseReports</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PurchaseReports</servlet-name>
+    <url-pattern>/PurchaseReports</url-pattern>
+  </servlet-mapping>
+  
+  
+
+   
+  
+ 
+  
+</web-app>
